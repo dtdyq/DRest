@@ -1,0 +1,54 @@
+
+
+.root {
+    -fx-font-size: 13;
+    -fx-font-family: "CamingoCode";
+}
+.split-menu-button {
+    -fx-min-height: 28;
+    -fx-max-height: 28;
+}
+.button{
+    -fx-min-height: 28;
+    -fx-max-height: 28;
+    -fx-font-size: 12;
+}
+.label{
+    -fx-min-height: 28;
+    -fx-max-height: 28;
+    -fx-font-size: 12;
+}
+.progress-bar {
+    -fx-max-height: 3;
+}
+.progress-bar.success > .bar {
+    -fx-background-insets: 0;
+    -fx-background-color: #5cb85c;
+}
+
+.progress-bar.info > .bar {
+    -fx-background-insets: 0;
+    -fx-background-color: #5bc0de;
+}
+
+.progress-bar.warning > .bar {
+    -fx-background-insets: 0;
+    -fx-background-color: #f0ad4e
+}
+
+.progress-bar.danger > .bar {
+    -fx-background-insets: 0;
+    -fx-background-color: #d9534f;
+}
+.text-field.danger {
+    -fx-text-fill: red;
+}
+.text-field.normal {
+    -fx-text-fill: black;
+}
+.table-row-cell:selected {
+    -fx-accent: #CCE8CF;
+}
+.jfx-list-view .list-cell:selected {
+    -fx-accent: #CCE8CF;
+}
