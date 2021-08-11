@@ -1,7 +1,7 @@
 ### DRest
 DRest is a http request platform,you can create some collections of rest requests and manage them.
 
-[main page](./img/main.JPG)
+![main page](./img/main.JPG)
 [detail page](./img/detail.JPG)
 
 **abilities**:
